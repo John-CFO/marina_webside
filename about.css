@@ -9,6 +9,7 @@
   width: 20vw;
   height: 1000px;
   left: 0;
+  z-index: -120;
   background-color: var(--blue);
   background-image: linear-gradient(
     to top,
@@ -23,6 +24,7 @@
   height: 1000px;
   right: 0;
   top: 0;
+  z-index: -120;
   background-color: var(--grey);
   background-image: linear-gradient(
     to top,
