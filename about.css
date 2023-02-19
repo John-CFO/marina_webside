@@ -1,0 +1,98 @@
+.about-section {
+  position: relative;
+  width: 100vw;
+  height: 1000px;
+}
+
+.background-1 {
+  position: absolute;
+  width: 20vw;
+  height: 1000px;
+  left: 0;
+  background-color: var(--blue);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.801)
+  );
+}
+
+.background-2 {
+  position: absolute;
+  width: 80vw;
+  height: 1000px;
+  right: 0;
+  top: 0;
+  background-color: var(--grey);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.801)
+  );
+}
+
+/* ----------text-container------------*/
+
+.about-text {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-right: auto;
+  border-radius: 10px;
+  padding: 7%;
+  width: 50vw;
+  height: 615px;
+  z-index: +2;
+  left: 10%;
+  top: 120px;
+  background-color: #616161;
+  box-shadow: 8px 8px 20px 0px rgba(0, 0, 0, 0.6);
+}
+
+.blue-corner {
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  background-color: var(--blue);
+  left: 73%;
+  top: 260px;
+}
+
+.blue-corner-2 {
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  background-color: var(--blue);
+
+  left: 19%;
+  top: 740px;
+}
+
+h3 {
+  font-size: 3rem;
+  color: var(--withe);
+  font-family: Ubuntu;
+}
+
+p {
+  color: var(--withe);
+  font-family: Ubuntu;
+  font-size: 2rem;
+}
+
+/*----------ship-picture--------------*/
+
+.ship {
+  padding: 10px;
+  background-color: var(--withe);
+  border-radius: 1%;
+  position: absolute;
+  z-index: +1;
+  width: 520px;
+  height: 800px;
+  left: 5%;
+  top: 90px;
+}
