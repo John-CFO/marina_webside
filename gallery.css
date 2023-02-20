@@ -330,9 +330,9 @@
 
 .caption {
   font-family: Ubuntu;
-  font-style: bold;
+  font-weight: 600;
   font-size: 20px;
-  color: #000000;
+  color: #777777;
   display: block;
   margin-top: 5px;
 }
