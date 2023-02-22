@@ -1,0 +1,64 @@
+.event-table {
+  margin-top: 500px;
+  position: relative;
+  width: 100vw;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.event-background-1 {
+  position: absolute;
+  width: 20vw;
+  height: 800px;
+  left: 0;
+  z-index: -120;
+  background-color: var(--blue);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.801)
+  );
+}
+
+.event-background-2 {
+  position: absolute;
+  width: 80vw;
+  height: 800px;
+  right: 0;
+  top: 0;
+  z-index: -120;
+  background-color: var(--grey);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.801)
+  );
+}
+
+.whats-up {
+  padding: 30px;
+}
+
+table {
+  font-family: Ubuntu;
+  font-size: 2rem;
+  color: var(--withe);
+  /*border: 2px solid var(--withe);*/
+  border-collapse: collapse;
+  box-shadow: 8px 8px 20px 0px rgba(0, 0, 0, 0.6);
+  background-color: #616161;
+}
+
+td,
+th {
+  /*border: 2px solid var(--withe);*/
+  padding: 24px 60px;
+  text-align: center;
+}
+
+thead {
+  background-color: var(--blue);
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+}

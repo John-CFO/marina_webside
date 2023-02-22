@@ -40,16 +40,16 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-left: 10%;
-  margin-top: 10%;
-  margin-right: auto;
+  left: 10%;
+  top: 10%;
+  right: auto;
   border-radius: 10px;
   padding: 7%;
   width: 50vw;
   height: 615px;
   z-index: +2;
-  left: 10%;
-  top: 120px;
+  margin-left: 10%;
+  margin-top: 175px;
   background-color: #616161;
   box-shadow: 8px 8px 20px 0px rgba(0, 0, 0, 0.6);
 }
@@ -70,7 +70,7 @@
   background-color: var(--blue);
 
   left: 19%;
-  top: 740px;
+  top: 745px;
 }
 
 h3 {
