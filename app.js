@@ -57,7 +57,7 @@ backToTopButton.addEventListener("click", function () {
 // --------------------back-to-top-button viewport
 
 window.addEventListener("scroll", function () {
-  let button = document.getElementById("back-to-top");
+  const button = document.getElementById("back-to-top");
   if (window.scrollY > 900) {
     button.style.display = "block"; // button is in the viewport
   } else {
