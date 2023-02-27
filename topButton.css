@@ -4,6 +4,10 @@
   right: 20px;
 }
 
+#back-to-top {
+  display: none;
+}
+
 .c-button {
   color: #000;
   font-weight: 700;
