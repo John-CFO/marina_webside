@@ -10,7 +10,7 @@ html {
 }
 body {
   min-width: 100%;
-  background-image: url(background/i-background.png);
+  background-image: url(background/o-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -47,7 +47,7 @@ body {
 
 :root {
   --grey: #808080;
-  --blue: #005eb8;
+  --blue: #00dada;
   --withe: #ffff;
   --black: #0000;
 }
