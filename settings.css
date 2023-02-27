@@ -6,24 +6,26 @@
 
 html {
   min-width: 100%;
+  scroll-behavior: smooth;
 }
 body {
   min-width: 100%;
-  background-image: url(background/i-background.png);
+  background-image: url(background/o-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  scroll-behavior: smooth;
 }
 
-/*.grid-template {
-  height: 5460px;
+.grid-template {
+  display: grid;
+  height: 5560px;
   min-width: 100%;
   grid: auto;
   overflow: hidden;
-  background-color: rgba(255, 0, 0, 0.726);
+  /*background-color: rgba(255, 0, 0, 0.726);*/
+
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 20% 40% 60% 40% 10%;
+  grid-template-rows: 960px 1000px 2500px 800px 300px;
 
   grid-template-areas:
     "header header header "
@@ -31,7 +33,7 @@ body {
     "gallery gallery gallery"
     "events events events"
     "contact contact contact";
-}*/
+}
 
 #back-video {
   width: 100vw;
@@ -45,7 +47,7 @@ body {
 
 :root {
   --grey: #808080;
-  --blue: #005eb8;
+  --blue: #00dada;
   --withe: #ffff;
   --black: #0000;
 }

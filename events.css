@@ -1,5 +1,5 @@
 .event-table {
-  /*grid-area: events;*/
+  grid-area: events;
   margin-top: 500px;
   position: relative;
   width: 100vw;
