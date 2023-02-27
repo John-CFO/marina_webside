@@ -8,11 +8,15 @@ footer {
   height: 300px;
 }
 
+/*-----------head-----------*/
+
 .contact-us {
   display: flex;
   justify-content: center;
   padding-bottom: 50px;
 }
+
+/*-----------icons---------*/
 
 .social-icons {
   display: flex;
@@ -27,6 +31,8 @@ footer {
   transform: translateY(-10px);
   transition: 0.3s ease-in-out;
 }
+
+/*--------contact links----------*/
 
 .contact {
   display: flex;
@@ -51,6 +57,8 @@ footer {
 .contact a:hover {
   text-decoration: underline;
 }
+
+/*----------footer section----------*/
 
 .breakline {
   margin-left: 250px;
