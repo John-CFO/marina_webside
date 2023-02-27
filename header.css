@@ -1,6 +1,7 @@
 /*--------header-navigation-----------*/
 
 .header {
+  /*grid-area: header;*/
   position: relative;
   overflow: hidden;
   width: 100vw;
