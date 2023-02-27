@@ -2,7 +2,7 @@
 
 footer {
   grid-area: contact;
-  margin-top: 50px;
+  margin-top: 30px;
 
   width: 100vw;
   height: 300px;
@@ -20,6 +20,7 @@ footer {
   gap: 40px;
   height: 60px;
   list-style: none;
+  padding-bottom: 20px;
 }
 
 .social-icons :hover {
@@ -32,7 +33,8 @@ footer {
   justify-content: center;
   list-style: none;
   gap: 20px;
-  padding-top: 25px;
+  padding-top: 15px;
+  padding-bottom: 30px;
 }
 
 .contact-list {
@@ -48,4 +50,17 @@ footer {
 
 .contact a:hover {
   text-decoration: underline;
+}
+
+.breakline {
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.copy {
+  display: flex;
+  font-family: Ubuntu;
+  justify-content: center;
+  font-size: 18px;
+  color: white;
 }

@@ -18,21 +18,20 @@ body {
 
 .grid-template {
   display: grid;
-  height: 5960px;
+  height: 5560px;
   min-width: 100%;
   grid: auto;
   overflow: hidden;
-  background-color: rgba(255, 0, 0, 0.726);
+  /*background-color: rgba(255, 0, 0, 0.726);*/
 
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 960px 1000px 2500px 800px 400px 300px;
+  grid-template-rows: 960px 1000px 2500px 800px 300px;
 
   grid-template-areas:
     "header header header "
     "about about about"
     "gallery gallery gallery"
     "events events events"
-    "map map map"
     "contact contact contact";
 }
 
