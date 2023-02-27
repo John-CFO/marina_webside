@@ -1,7 +1,7 @@
 /*----background-config.-----*/
 
 .event-gallery {
-  /*grid-area: gallery;*/
+  grid-area: gallery;
   position: relative;
   width: 100vw;
   height: 2000px;

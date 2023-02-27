@@ -6,6 +6,7 @@
 
 html {
   min-width: 100%;
+  scroll-behavior: smooth;
 }
 body {
   min-width: 100%;
@@ -13,25 +14,27 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  scroll-behavior: smooth;
 }
 
-/*.grid-template {
-  height: 5460px;
+.grid-template {
+  display: grid;
+  height: 5960px;
   min-width: 100%;
   grid: auto;
   overflow: hidden;
   background-color: rgba(255, 0, 0, 0.726);
+
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 20% 40% 60% 40% 10%;
+  grid-template-rows: 960px 1000px 2500px 800px 400px 300px;
 
   grid-template-areas:
     "header header header "
     "about about about"
     "gallery gallery gallery"
     "events events events"
+    "map map map"
     "contact contact contact";
-}*/
+}
 
 #back-video {
   width: 100vw;

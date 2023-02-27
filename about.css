@@ -1,5 +1,5 @@
 .about-section {
-  /*grid-area: about;*/
+  grid-area: about;
   position: relative;
   width: 100vw;
   height: 1000px;
