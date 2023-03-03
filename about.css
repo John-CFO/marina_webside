@@ -18,10 +18,10 @@
   border-radius: 10px;
   padding: 7%;
   width: 50vw;
-  height: 615px;
+  height: 650px;
   z-index: +2;
   margin-left: 28%;
-  margin-top: 175px;
+  margin-top: 140px;
   background-color: #616161;
   box-shadow: 8px 8px 20px 0px rgba(0, 0, 0, 0.6);
 }
@@ -32,7 +32,7 @@
   height: 10rem;
   background-color: var(--blue);
   left: 81%;
-  top: 255px;
+  top: 220px;
 }
 
 .blue-corner-2 {
@@ -70,3 +70,12 @@ p {
   left: 5%;
   top: 90px;
 }
+
+@media only screen and (mmax-width: 1629px) {
+  .about-text {
+    position: absolute;
+  }
+  .ship {
+    padding: 50px;
+  }
+} ;

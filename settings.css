@@ -18,7 +18,7 @@ body {
 
 .grid-template {
   display: grid;
-  height: 5560px;
+  height: 5580px;
   min-width: 100%;
   grid: auto;
   overflow: hidden;
