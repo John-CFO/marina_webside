@@ -58,7 +58,7 @@ backToTopButton.addEventListener("click", function () {
 
 window.addEventListener("scroll", function () {
   const button = document.getElementById("back-to-top");
-  if (window.scrollY > 900) {
+  if (window.scrollY > 100) {
     button.style.display = "block"; // button is in the viewport
   } else {
     button.style.display = "none"; // button is tranceparent

@@ -8,14 +8,25 @@
   height: 100vh;
 }
 
+.marina {
+  width: 100vw;
+  height: 960px;
+
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 nav {
   width: 100%;
   position: absolute;
   left: 0;
   right: 0;
-  padding: 28px 5%;
+  padding: 15px 5%;
   display: flex;
   justify-content: flex-end;
+  z-index: +10000;
 }
 
 nav ul li {
@@ -127,10 +138,127 @@ h2 {
   }
 }
 
-/*-----responsive desing----------------*/
+/*-----responsive desing header section----------------*/
 
-@media only screen and (min-width: 768px) and (max-width: 1000px) {
-  .marina {
-    padding-top: 50%;
+@media only screen and (max-width: 1470px) {
+  nav {
+    padding-top: 50px;
   }
-} ;
+}
+
+@media only screen and (max-width: 1325px) {
+  .marina {
+    padding-bottom: 100px;
+  }
+  h1 {
+    font-size: 7rem;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .marina {
+    padding-bottom: 200px;
+  }
+  h1 {
+    font-size: 5rem;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .marina {
+    padding-bottom: 300px;
+  }
+  h1 {
+    font-size: 5rem;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .marina {
+    padding-bottom: 400px;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h1.animate {
+    margin-bottom: 180px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+  h2.animate {
+    margin-top: 180px;
+  }
+  .marina {
+    padding-bottom: 480px;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  h1 {
+    font-size: 38px;
+  }
+  h1.animate {
+    margin-bottom: 280px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+  h2.animate {
+    margin-top: 280px;
+  }
+  .marina {
+    padding-bottom: 580px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+  .marina {
+    padding-bottom: 650px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 15px;
+  }
+  .marina {
+    padding-bottom: 680px;
+  }
+}
+
+@media only screen and (max-width: 270px) {
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 12px;
+  }
+  .marina {
+    padding-bottom: 720px;
+  }
+}

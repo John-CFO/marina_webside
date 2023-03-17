@@ -23,6 +23,7 @@ footer {
   justify-content: center;
   gap: 40px;
   height: 60px;
+  width: auto;
   list-style: none;
   padding-bottom: 20px;
 }
@@ -33,6 +34,15 @@ footer {
 }
 
 /*--------contact links----------*/
+
+.contact {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 20px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
 
 .contact {
   display: flex;
@@ -71,4 +81,150 @@ footer {
   justify-content: center;
   font-size: 18px;
   color: white;
+}
+
+/*----------responsive design-------------*/
+
+@media only screen and (max-width: 1240px) {
+  footer {
+    margin-top: 300px;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  footer {
+    margin-top: 350px;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .breakline {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  .social-icons img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width: 970px) {
+  .copy {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  footer {
+    margin-top: 430px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .copy {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  footer {
+    margin-top: 300px;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .copy {
+    font-size: 12px;
+    text-align: center;
+  }
+  .breakline {
+    margin-left: 160px;
+    margin-right: 160px;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  footer {
+    margin-top: 330px;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  .breakline {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  footer {
+    margin-top: 130px;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  footer {
+    margin-top: 250px;
+    height: 230px;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  footer {
+    margin-top: 230px;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  footer {
+    margin-top: 130px;
+  }
+  .contact-us {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  footer {
+    margin-top: 100px;
+  }
+  .contact {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  footer {
+    margin-top: -180px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .breakline {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  footer {
+    margin-top: -50px;
+  }
+  .social-icons {
+    gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  footer {
+    margin-top: +20px;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  .social-icons {
+    gap: 10px;
+  }
 }

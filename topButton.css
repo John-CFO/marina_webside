@@ -2,6 +2,7 @@
   position: fixed;
   bottom: 20px;
   right: 20px;
+  z-index: +100;
 }
 
 #back-to-top {
@@ -75,4 +76,18 @@
 
 .c-button--gooey:hover .c-button__blobs div {
   transform: scale(1.4) translateY(0) translateZ(0);
+}
+
+/*------------responsive design top button--------------*/
+
+@media only screen and (max-width: 1075px) {
+  .c-button {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .c-button {
+    font-size: 11px;
+  }
 }
