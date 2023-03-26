@@ -140,11 +140,42 @@ h2 {
 
 /*-----responsive desing header section----------------*/
 
-@media only screen and (max-width: 1470px) {
+/*----------------burger-menue----------------*/
+
+#toggle-btn {
+  display: none;
+}
+
+label[for="toggle-btn"] {
+  display: none;
+}
+@media only screen and (max-width: 1024px) {
+  nav ul {
+    display: none;
+    flex-direction: column;
+    top: 0;
+    right: 0;
+    background: var(--grey);
+    padding: 25px;
+    gap: 50px;
+    border-radius: 0 0 12px 12px;
+  }
   nav {
-    padding-top: 50px;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+  }
+
+  #toggle-btn:checked ~ ul {
+    display: flex;
+  }
+  label[for="toggle-btn"] {
+    display: block;
   }
 }
+
+/*--------header responsive------------*/
 
 @media only screen and (max-width: 1325px) {
   .marina {
