@@ -37,6 +37,7 @@ body {
 #back-video {
   width: 100vw;
   height: 100vh;
+  max-height: 1020px;
   object-fit: cover;
   background-size: cover;
   padding: 5% 5% 5% 5%;
@@ -73,4 +74,114 @@ body {
   font-weight: 700;
   font-style: bold;
   font-display: swap;
+}
+
+/*---------responsive design----------*/
+
+@media only screen and (max-width: 1500px) {
+  #back-video {
+    height: fit-content;
+  }
+}
+@media only screen and (max-width: 1325px) {
+  .grid-template {
+    height: 5420px;
+    grid-template-rows: 820px 1000px 2500px 800px 300px;
+  }
+}
+
+@media only screen and (max-width: 1240px) {
+  .grid-template {
+    height: 5520px;
+    grid-template-rows: 720px 1000px 2500px 730px 300px;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .grid-template {
+    height: 5480px;
+    grid-template-rows: 720px 1000px 2400px 730px 300px;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  #back-video {
+    height: fit-content;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .grid-template {
+    height: 5400px;
+    grid-template-rows: 650px 1000px 2360px 680px 350px;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .grid-template {
+    height: 5280px;
+    grid-template-rows: 650px 1000px 2360px 680px 350px;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .grid-template {
+    height: 5000px;
+    grid-template-rows: 500px 1100px 2300px 500px 300px;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .grid-template {
+    height: 4800px;
+    grid-template-rows: 500px 1100px 2300px 500px 300px;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .grid-template {
+    height: 4200px;
+    grid-template-rows: 460px 800px 1800px 640px 200px;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .grid-template {
+    height: 4200px;
+    grid-template-rows: 460px 800px 1800px 640px 200px;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .grid-template {
+    height: 4150px;
+    grid-template-rows: 400px 800px 1900px 640px 400px;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .grid-template {
+    height: 4250px;
+    grid-template-rows: 320px 800px 1900px 740px 400px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .grid-template {
+    height: 3950px;
+    grid-template-rows: 320px 800px 1900px 740px 200px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .grid-template {
+    height: 4000px;
+    grid-template-rows: 320px 800px 1900px 640px 400px;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .grid-template {
+    height: 4050px;
+    grid-template-rows: 320px 800px 1900px 640px 400px;
+  }
 }

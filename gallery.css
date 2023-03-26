@@ -64,7 +64,7 @@
   overflow: visible;
   position: relative;
   width: 820px;
-  height: 450px;
+  height: 250px;
   background: #fff;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   cursor: pointer;
@@ -107,7 +107,6 @@
 }
 
 .img-1 {
-  background: #4158d0;
   position: absolute;
   background-size: cover;
   background-image: url(gallery/yacht-1.jpg);
@@ -196,7 +195,6 @@
 }
 
 .img-2 {
-  background: #4158d0;
   position: absolute;
   background-size: cover;
   background-image: url(gallery/yacht-2.jpg);
@@ -324,4 +322,113 @@
 .card-normal:hover:after {
   transform: rotate(10deg);
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+}
+
+/*---------responsive design gallery section------------*/
+
+@media only screen and (max-width: 1240px) {
+  .event-gallery {
+    margin-top: +100px;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .event-gallery {
+    max-width: 80vw;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .event-gallery {
+    margin-top: -200px;
+  }
+
+  .gallery-headline {
+    font-size: 30px;
+  }
+  .description-text {
+    font-size: 18px;
+  }
+
+  .card-normal {
+    height: 380px;
+    top: 50px;
+  }
+  .card-reverse {
+    height: 380px;
+    top: 50px;
+  }
+
+  .description-position {
+    height: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .event-gallery {
+    margin-top: -100px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .event-gallery {
+    margin-top: -200px;
+  }
+
+  .gallery-headline {
+    font-size: 25px;
+  }
+  .description-text {
+    font-size: 18px;
+  }
+
+  .card-normal {
+    height: 320px;
+    top: 10px;
+  }
+  .card-reverse {
+    height: 320px;
+    top: 10px;
+  }
+  .description-position {
+    height: 100px;
+    margin-bottom: 50px;
+  }
+  .item-1 {
+    margin-bottom: 10px;
+    height: 380px;
+  }
+  .item-2 {
+    margin-bottom: 10px;
+    height: 380px;
+  }
+  .item-3 {
+    margin-bottom: 10px;
+    height: 380px;
+  }
+  .event-gallery {
+    height: 1800px;
+    margin-top: 5px;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .gallery-headline {
+    font-size: 20px;
+  }
+  .description-text {
+    font-size: 15px;
+  }
+  .description-position {
+    margin-top: 20px;
+  }
+  .card-normal {
+    height: 280px;
+  }
+  .card-reverse {
+    height: 280px;
+  }
 }

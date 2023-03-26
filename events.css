@@ -9,8 +9,12 @@
   flex-direction: column;
 }
 
-.whats-up {
-  padding: 30px;
+h5 {
+  font-size: 3rem;
+  color: var(--withe);
+  font-family: Ubuntu;
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
+  padding-bottom: 30px;
 }
 
 table {
@@ -33,4 +37,132 @@ th {
 thead {
   background-color: var(--blue);
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+}
+
+/*-----------responsive design event section-----------*/
+
+@media only screen and (max-width: 1370px) {
+  table {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  table {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  table {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  table {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 930px) {
+  td,
+  th {
+    padding: 20px 50px;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  h5 {
+    font-size: 40px;
+  }
+  table {
+    font-size: 16px;
+  }
+  td,
+  th {
+    padding: 18px 40px;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  table {
+    font-size: 15px;
+  }
+  td,
+  th {
+    padding: 15px 30px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  h5 {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  h5 {
+    font-size: 28px;
+  }
+  td,
+  th {
+    padding: 13px 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h5 {
+    font-size: 25px;
+  }
+  td,
+  th {
+    padding: 10px 10px;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  h5 {
+    font-size: 28px;
+  }
+
+  .event-table {
+    margin-top: 150px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  h5 {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 485px) {
+  .event-table {
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  h5 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .event-table {
+    margin-top: -120px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .event-table {
+    margin-top: -20px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  h5 {
+    font-size: 16px;
+  }
 }
