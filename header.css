@@ -37,7 +37,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  font-family: Ubuntu;
+  font-family: Poppins;
   font-style: normal;
   font-size: 22px;
   color: var(--withe);
@@ -85,7 +85,7 @@ nav ul li a {
 }
 
 h1 {
-  font-family: Ubuntu;
+  font-family: Poppins;
   font-style: bold;
   font-size: 8rem;
   line-height: 5rem;
@@ -94,7 +94,7 @@ h1 {
 }
 
 h2 {
-  font-family: Ubuntu;
+  font-family: Poppins;
   font-style: bold;
   font-size: 3rem;
   color: var(--withe);

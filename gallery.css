@@ -12,7 +12,7 @@
 .gallery-headline {
   font-size: 2rem;
   color: var(--withe);
-  font-family: Ubuntu;
+  font-family: Poppins;
   font-style: bold;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
 }
@@ -20,7 +20,7 @@
 .description-text {
   font-size: 25px;
   color: var(--withe);
-  font-family: Ubuntu;
+  font-family: Poppins;
   font-style: normal;
 }
 
@@ -118,14 +118,14 @@
 
 /*Text*/
 .title {
-  font-family: Ubuntu;
+  font-family: Poppins;
   font-weight: 600;
   font-size: 20px;
   color: #777777;
 }
 
 .caption {
-  font-family: Ubuntu;
+  font-family: Poppins;
   font-style: bold;
   font-size: 20px;
   color: #000000;
@@ -206,14 +206,14 @@
 
 /*Text*/
 .title {
-  font-family: Ubuntu;
+  font-family: Poppins;
   font-weight: 600;
   font-size: 20px;
   color: #777777;
 }
 
 .caption {
-  font-family: Ubuntu;
+  font-family: Poppins;
   font-style: bold;
   font-size: 20px;
   color: #000000;
@@ -295,14 +295,14 @@
 
 /*Text*/
 .title {
-  font-family: Ubuntu;
+  font-family: Poppins;
   font-weight: 600;
   font-size: 20px;
   color: #777777;
 }
 
 .caption {
-  font-family: Ubuntu;
+  font-family: Poppins;
   font-weight: 600;
   font-size: 20px;
   color: #777777;

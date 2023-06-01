@@ -58,7 +58,7 @@ footer {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
   text-decoration: none;
   gap: 30px;
-  font-family: Ubuntu;
+  font-family: Poppins;
   color: var(--withe);
   font-size: 25px;
   transition: border-bottom 0.2s ease-in-out;
@@ -77,7 +77,7 @@ footer {
 
 .copy {
   display: flex;
-  font-family: Ubuntu;
+  font-family: Poppins;
   justify-content: center;
   font-size: 18px;
   color: white;

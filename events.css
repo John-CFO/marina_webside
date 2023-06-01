@@ -12,13 +12,13 @@
 h5 {
   font-size: 3rem;
   color: var(--withe);
-  font-family: Ubuntu;
+  font-family: Poppins;
   text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
   padding-bottom: 30px;
 }
 
 table {
-  font-family: Ubuntu;
+  font-family: Poppins;
   font-size: 2rem;
   color: var(--withe);
   /*border: 2px solid var(--withe);*/

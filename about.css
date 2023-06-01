@@ -30,14 +30,14 @@
 h3 {
   font-size: 3rem;
   color: var(--withe);
-  font-family: Ubuntu;
+  font-family: Poppins;
   text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
 }
 
 p {
   color: var(--withe);
-  font-family: Ubuntu;
-  font-size: 2rem;
+  font-family: Poppins;
+  font-size: 1.6rem;
 }
 
 /*----------ship-picture--------------*/
