@@ -52,6 +52,8 @@ body {
   --black: #0000;
 }
 
+/*------font selection(change in what you want)--------*/
+
 @font-face {
   font-family: Poppins;
   src: url(../fonts/Poppins/Poppins-Regular.ttf);
